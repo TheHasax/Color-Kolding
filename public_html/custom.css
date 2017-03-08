@@ -10,6 +10,11 @@
     font-family: fontawesome;
     src: url("fonts/fontawesome-webfont.ttf");
 }
+body {
+    background-image: url('images/longground.png');
+    background-size: 100%!important;
+    background-repeat: repeat-y;
+}
 .wrapper {
     width: 100%;
     height: 100%;
@@ -19,6 +24,14 @@
 }
 .desk-banner img {
     display: none;
+}
+.break {
+    width: 100%;
+    height: 3px;
+    background-color: grey;
+    margin: 0px;
+    border: 0px;
+    float: left;
 }
 .desk-banner {
     padding-left: 0 !important;
@@ -54,7 +67,7 @@ header {
     right: 2%;
     bottom: 5%;
     font-family: fontawesome;
-    font-size: 40px;
+    font-size: 15vmin;
     color: black!important;
     text-decoration: none!Important;
 }
@@ -68,14 +81,19 @@ header {
     padding-top: 10px;
 }
 .jumbotron {
-    background-color: rgba(0,0,0,0)
+    background-color: rgba(255,255,255,0.8)
 }
 .splat-logo img {
     width: 25%;
     align-items: center;
 }
+.activityBtn img {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
 .content p {
-    width: 200%;
+    width: 100%;
     
 }
 .content {
@@ -93,10 +111,16 @@ header {
 }
 .icon img {
     width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 @media only screen and (min-width: 992px) {
     .desk-banner img {
         display: block;
+    }
+    .content p {
+    width: 200%;
+    
     }
     .banner-top {
         display: none;
@@ -120,6 +144,13 @@ header {
     }
     .social {
         display: block;
+    }
+    .top {
+        font-size: 8vmin;
+    }
+    .activityBtn {
+    padding-left: 40px;
+    padding-right: 40px;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -148,5 +179,19 @@ header {
     }
     .social {
         display: block;
+    }
+    .content p {
+    width: 200%;
+    
+    }
+    .icon img {
+        position: absolute;
+        left: -25px;
+        top: 15px;
+        width: 150%;
+    }
+    .activityBtn {
+    padding-left: 40px;
+    padding-right: 40px;
     }
 }
