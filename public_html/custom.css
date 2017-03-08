@@ -1,5 +1,152 @@
-#header {
+@font-face {
+    font-family: HelveticaLtEx;
+    src: url("fonts/HelveticaNeueLTStd-LtEx.otf") format("opentype");
+}
+@font-face {
+    font-family: HelveticaRo;
+    src: url("fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+}
+@font-face {
+    font-family: fontawesome;
+    src: url("fonts/fontawesome-webfont.ttf");
+}
+.wrapper {
     width: 100%;
-    max-height: 100px;
+    height: 100%;
+}
+.banner {
     
+}
+.desk-banner img {
+    display: none;
+}
+.desk-banner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom: grey 3px;
+}
+.banner-top {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    border-bottom: grey 3px;
+}
+header {
+    max-height: 20%;
+    margin-bottom: 0!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-top: 0!important;
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding-top: 0!important;
+    border-bottom: grey 3px;
+}
+
+.body-text {
+    
+}
+.filler {
+    
+}
+.top{
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    font-family: fontawesome;
+    font-size: 40px;
+    color: black!important;
+    text-decoration: none!Important;
+}
+.info-side {
+    display: none;
+    border-radius: 10px;
+    background-color:rgba(245,231,158,0.9);
+    margin-top: 4%;
+}
+.notice {
+    padding-top: 10px;
+}
+.jumbotron {
+    background-color: rgba(0,0,0,0)
+}
+.splat-logo img {
+    width: 25%;
+    align-items: center;
+}
+.content p {
+    width: 200%;
+    
+}
+.content {
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 3%;
+}
+.social-title {
+    padding-top: 10px;
+}
+.social {
+    margin-top: 4%;
+    display: none;
+    border-radius: 10px;
+    background-color:rgba(196,227,243,0.8);
+}
+.icon img {
+    width: 100%;
+}
+@media only screen and (min-width: 992px) {
+    .desk-banner img {
+        display: block;
+    }
+    .banner-top {
+        display: none;
+    }
+    .test img {
+        position: absolute;
+        top: 13.8%;
+        left: 16.6%;
+        width: 50%;
+        float: inside;
+    }
+    .test1 img {
+        position: absolute;
+        top: 2%;
+        left: 17%;
+        width: 9%;
+        float: inside;
+    }
+    .info-side {
+        display: block;
+    }
+    .social {
+        display: block;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .desk-banner img {
+        display: block;
+    }
+    .banner-top {
+        display: none;
+    }
+    .test img {
+        position: absolute;
+        top: 19.8%;
+        left: 16.6%;
+        width: 40%;
+        float: inside;
+    }
+    .test1 img {
+        position: absolute;
+        top: 2%;
+        left: 17%;
+        width: 8%;
+        float: inside;
+    }
+    .info-side {
+        display: block;
+    }
+    .social {
+        display: block;
+    }
 }
